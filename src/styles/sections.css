@@ -1,0 +1,22 @@
+.card {
+    padding: 16px;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    min-height: 500px;
+}
+
+.form label {
+    display: grid;
+    margin-top: 12px;
+}
+
+.form input,
+.form textarea {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+.card button:last-of-type {
+    margin-top: 12px;
+}
