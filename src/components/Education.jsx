@@ -39,15 +39,16 @@ export default function Education() {
                     </label>
                     <label>From
                         <input
-                            name='from'
-                            type='text'
+                            type="month"
+                            name="from"
                             defaultValue={submitted.from}
                         />
                     </label>
+
                     <label>Until
                         <input
-                            name='until'
-                            type='text'
+                            type="month"
+                            name="until"
                             defaultValue={submitted.until}
                         />
                     </label>
