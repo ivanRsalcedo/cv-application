@@ -5,10 +5,13 @@ import Experience from './components/Experience'
 
 export default function App() {
   return (
-    <div className="container">
-      <General />
-      <Education />
-      <Experience />
-    </div>
+    <>
+      <h1>CV-APP</h1>
+      <div className="container">
+        <General />
+        <Education />
+        <Experience />
+      </div>
+      </>
   )
 }
